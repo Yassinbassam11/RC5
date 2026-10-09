@@ -1,0 +1,79 @@
+# ============================================================
+# .gitignore for RC5 Cipher – AVR Assembly & C++ Project
+# ============================================================
+
+# -----------------------------------------------
+# Atmel Studio / Microchip Studio Build Outputs
+# (keep output/*.hex — these are intentionally committed)
+# -----------------------------------------------
+*.elf
+*.lss
+*.map
+*.obj
+*.o
+*.tmp
+*.cof
+*.eep
+*.srec
+*.d
+*.a
+*.componentinfo.xml
+*.atsuo
+*.userprefs
+
+# -----------------------------------------------
+# Visual Studio Build Outputs (C++ Version)
+# -----------------------------------------------
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.dll
+*.exp
+*.tlog/
+*.log
+*.recipe
+vc*.pdb
+vc*.idb
+ipch/
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+
+# -----------------------------------------------
+# Proteus / ISIS Simulation – Backup Files Only
+# (keep rc5-simulation.pdsprj — intentionally committed)
+# -----------------------------------------------
+*[Autosaved]*.pdsprj
+*[20[0-9][0-9]*]*.pdsprj
+*.pdsprj.*.workspace
+Project Backups/
+
+# -----------------------------------------------
+# OS / Editor Generated Files
+# -----------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.bak
+*.orig
+*~
+
+# -----------------------------------------------
+# IDE Personal Configs
+# -----------------------------------------------
+.idea/
+.vscode/settings.json
+*.code-workspace
